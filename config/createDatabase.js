@@ -14,7 +14,7 @@ import OrderDetail from '../models/OrderDetail.js';
   try {
     await sequelize.authenticate();
     console.log('Connection has been established successfully.');
-    await Cart.sync({ alter: true });
+    await sequelize.sync({ alter: true });
     console.log('Table created/updated!');
     process.exit();
   } catch (error) {

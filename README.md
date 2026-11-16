@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/34928436/README.md)
 # ⌚ WatchStore Manager
 
 An online watch store with a separate admin panel. Customers browse and filter watches, manage a cart and place orders. Staff manage the catalog, customers, employees and orders.
